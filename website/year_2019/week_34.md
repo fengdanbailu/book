@@ -15,4 +15,4 @@
     > [前方的路](http://www.ruanyifeng.com/road/)
 
 - ES6语法学习
-    > [入门资料]（https://es6.ruanyifeng.com/#docs/destructuring）|
+    > [入门资料](https://es6.ruanyifeng.com/#docs/destructuring) |

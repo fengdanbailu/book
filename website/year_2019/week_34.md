@@ -13,3 +13,6 @@
     > [网络日志](http://www.ruanyifeng.com/blog/) |
     > [未来世界的幸存者](http://www.ruanyifeng.com/survivor/) |
     > [前方的路](http://www.ruanyifeng.com/road/)
+
+- ES6语法学习
+    > [入门资料]（https://es6.ruanyifeng.com/#docs/destructuring）|

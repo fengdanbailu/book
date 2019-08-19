@@ -5,7 +5,7 @@
 
 1. 拉去代码 git clone https://github.com/fengdanbailu/book.git
 1. 初始化 npm install -g gitbook-cli
-1. 启动 gitbook serve ./book
+1. 启动 gitbook serve ./book/website
 1. 打开http://localhost:4000
 
 ## 自行手写初始化

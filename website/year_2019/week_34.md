@@ -1,7 +1,41 @@
-## 第一节 （第34周）
+### Tuesday 2019/08/20
+---
 
-#### Monday 2019/08/19
-- - -
+- 值得看的网站
+
+    > [reddit][] | [stackexchange][] | [openstreetmap][]
+
+
+- markdown语法之表格和公式
+
+| 右对齐 | 居中对齐| 左对齐 |
+| ----: | :----: | :---- |
+| 单元格 | 单元格  | 单元格 |
+| 单元格 | 单元格  | 单元格 |
+
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$
+
+- 感受
+> 以后写md文档时，不用webstorm，改用MWeb；
+> 虽然在记录链接，但实际上有些链接是未读完的；
+
+
+
+
+[reddit]: https://www.reddit.com/
+[stackexchange]: https://stackexchange.com/
+[openstreetmap]: https://www.openstreetmap.org
+
+
+
+### Monday 2019/08/19
+---
 
 - Markdown资料
 
@@ -31,40 +65,3 @@
 
 
 
-#### Tuesday 2019/08/20
-- - -
-
-- 新链接
-
-    > [reddit][] | [stackexchange][] | [openstreetmap][]
-
-
-- 表格
-
-| 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
-
-- 公式
-
-
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-$$
-
-- 模板引擎
-GitBook使用 Nunjucks 和 Jinja2 的语法
-
-
-
-
-
-
-[reddit]: https://www.reddit.com/
-[stackexchange]: https://stackexchange.com/
-[openstreetmap]: https://www.openstreetmap.org

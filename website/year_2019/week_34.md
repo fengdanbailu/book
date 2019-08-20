@@ -12,6 +12,7 @@
 
     > [官网](https://www.gitbook.com/) |
     > [教程](https://uncle-code.iteye.com/blog/2297787)
+    > [资料](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html)
 
 - 阮一峰博客
 

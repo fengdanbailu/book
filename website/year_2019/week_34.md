@@ -1,7 +1,47 @@
-## 第一节 （第34周）
+### Tuesday 2019/08/20
+---
 
-#### Monday 2019/08/19
-- - -
+- 值得看的网站
+
+    > [reddit][] | [stackexchange][] | [openstreetmap][] |[nunjucks][] | [jinja][]
+    
+    > [git][git-scm] | [idea][IntelliJ IDEA] 
+
+- markdown语法之表格和公式
+
+| 右对齐 | 居中对齐| 左对齐 |
+| ----: | :----: | :---- |
+| 单元格 | 单元格  | 单元格 |
+| 单元格 | 单元格  | 单元格 |
+
+$$
+\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
+\mathbf{i} & \mathbf{j} & \mathbf{k} \\
+\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
+\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
+\end{vmatrix}
+$$
+
+- 感受
+> 以后写md文档时，不用webstorm，改用MWeb；
+> 虽然在记录链接，但实际上有些链接是未读完的；
+
+
+
+
+[reddit]: https://www.reddit.com/
+[stackexchange]: https://stackexchange.com/
+[openstreetmap]: https://www.openstreetmap.org
+[jinja]: https://palletsprojects.com/p/jinja/
+[nunjucks]: https://mozilla.github.io/nunjucks/
+
+[IntelliJ IDEA]: https://www.w3cschool.cn/intellij_idea_doc/intellij_idea_doc-36y22cpb.html
+[git-scm]: https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6
+
+
+
+### Monday 2019/08/19
+---
 
 - Markdown资料
 
@@ -11,8 +51,11 @@
 - Gitbook资料
 
     > [官网](https://www.gitbook.com/) |
-    > [教程](https://uncle-code.iteye.com/blog/2297787)
-    > [资料](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html)
+    > [教程](https://uncle-code.iteye.com/blog/2297787) |
+    > [资料](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html) |
+    > [插件下载](https://calibre-ebook.com/download_osx) |
+    > [插件说明](http://gitbook.wiliam.me/ebookandpdf.html) |
+
 
 - 阮一峰博客
 
@@ -23,42 +66,8 @@
 
 - ES6语法学习
 
-    > [入门资料](https://es6.ruanyifeng.com/#docs/destructuring)
+    > [入门资料](https://es6.ruanyifeng.com/#docs/destructuring) |
 
 
 
 
-#### Tuesday 2019/08/20
-- - -
-
-- 新链接
-
-    > [reddit][] | [stackexchange][] | [openstreetmap][]
-
-
-- 表格
-
-| 左对齐 | 右对齐 | 居中对齐 |
-| :-----| ----: | :----: |
-| 单元格 | 单元格 | 单元格 |
-| 单元格 | 单元格 | 单元格 |
-
-- 公式
-
-
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-$$
-
-
-
-
-
-
-[reddit]: https://www.reddit.com/
-[stackexchange]: https://stackexchange.com/
-[openstreetmap]: https://www.openstreetmap.org

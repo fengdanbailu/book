@@ -11,8 +11,11 @@
 - Gitbook资料
 
     > [官网](https://www.gitbook.com/) |
-    > [教程](https://uncle-code.iteye.com/blog/2297787)
-    > [资料](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html)
+    > [教程](https://uncle-code.iteye.com/blog/2297787) |
+    > [资料](https://chrisniael.gitbooks.io/gitbook-documentation/content/index.html) |
+    > [插件下载](https://calibre-ebook.com/download_osx) |
+    > [插件说明](http://gitbook.wiliam.me/ebookandpdf.html) |
+
 
 - 阮一峰博客
 
@@ -23,7 +26,7 @@
 
 - ES6语法学习
 
-    > [入门资料](https://es6.ruanyifeng.com/#docs/destructuring)
+    > [入门资料](https://es6.ruanyifeng.com/#docs/destructuring) |
 
 
 
@@ -53,6 +56,9 @@ $$
 \frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
 \end{vmatrix}
 $$
+
+- 模板引擎
+GitBook使用 Nunjucks 和 Jinja2 的语法
 
 
 

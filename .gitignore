@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
 *_book
+
 # Editor directories and files
 .idea
 .vscode
@@ -9,3 +10,7 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
+
+*.pdf
+*.epub
+*.mobi

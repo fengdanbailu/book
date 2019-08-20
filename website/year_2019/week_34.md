@@ -4,7 +4,8 @@
 - 值得看的网站
 
     > [reddit][] | [stackexchange][] | [openstreetmap][]
-
+    
+    > [git][git-scm] | [idea][IntelliJ IDEA] 
 
 - markdown语法之表格和公式
 
@@ -31,6 +32,8 @@ $$
 [reddit]: https://www.reddit.com/
 [stackexchange]: https://stackexchange.com/
 [openstreetmap]: https://www.openstreetmap.org
+[IntelliJ IDEA]: https://www.w3cschool.cn/intellij_idea_doc/intellij_idea_doc-36y22cpb.html
+[git-scm]: https://git-scm.com/book/zh/v1/%E8%B5%B7%E6%AD%A5-%E5%85%B3%E4%BA%8E%E7%89%88%E6%9C%AC%E6%8E%A7%E5%88%B6
 
 
 

@@ -5,7 +5,7 @@
 
 - 几个开心的事
     1.游泳可以游两个来回了；用狗刨可以坚持10秒多；
-    2.未来三周
+    2.未来三周要版的新宿舍了，舍友是个手办爱好者，给人以独特个性的感觉。
     
 [istio文档]: https://istio.io/zh/docs/ops/component-logging/#see-also)
 [青蛙小白]: https://blog.frognew.com/post.html

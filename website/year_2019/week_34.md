@@ -1,3 +1,17 @@
+### Thursday 2019/08/22
+- 推荐网站
+
+    > [istio文档][] | [青蛙小白][] | [华为云][] | [搜索][]
+
+- 几个开心的事
+    1.游泳可以游两个来回了；用狗刨可以坚持10秒多；
+    2.未来三周要版的新宿舍了，舍友是个手办爱好者，给人以独特个性的感觉。
+    
+[istio文档]: https://istio.io/zh/docs/ops/component-logging/#see-also)
+[青蛙小白]: https://blog.frognew.com/post.html
+[华为云]: https://console.huaweicloud.com/vpc/
+[搜索]: https://search.readmorejoy.com/search?engine=baidu&start=0&key=istor
+
 ### Tuesday 2019/08/20
 ---
 

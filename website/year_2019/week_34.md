@@ -1,11 +1,21 @@
+### Friday 2019/08/23
+- VUE学习
+
+    > [VUE官网][] | [VUE-git][] 
+
+[VUE官网]: https://cn.vuejs.org/v2/guide/
+[VUE-git]:https://github.com/vuejs/vue
+
 ### Thursday 2019/08/22
 - 推荐网站
 
     > [istio文档][] | [青蛙小白][] | [华为云][] | [搜索][]
 
-- 几个开心的事
-    1.游泳可以游两个来回了；用狗刨可以坚持10秒多；
-    2.未来三周要版的新宿舍了，舍友是个手办爱好者，给人以独特个性的感觉。
+- 值得记录的时刻
+
+1. 游泳可以游两个来回了；用狗刨可以坚持10秒多；
+
+1. 未来三周要版的新宿舍了，舍友是个手办爱好者，给人以独特个性的感觉。
     
 [istio文档]: https://istio.io/zh/docs/ops/component-logging/#see-also)
 [青蛙小白]: https://blog.frognew.com/post.html
@@ -81,7 +91,3 @@ $$
 - ES6语法学习
 
     > [入门资料](https://es6.ruanyifeng.com/#docs/destructuring) |
-
-
-
-

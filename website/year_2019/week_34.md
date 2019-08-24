@@ -1,4 +1,19 @@
 ### Friday 2019/08/23
+- 经典语句
+
+	> - 比完美更重要的是完成。(Done is better than prefect.)  
+	> - 快速行动，破除陈规。(Move fast and break things.)  
+	> - 保持专注，持续发布。(Stay focused and keep shipping.)
+	
+	> - 只管去做。(Just do it)
+	> - 招人要谨慎，解雇要快速。(Be slow to hire and quick to fire.)
+	> - 工作成效必须有评估。(Measure what you manage.)
+	> - 客户比竞争对手更重要。(Competition isn't as important as the customer.)
+	> - 快速增长带来的最大挑战，就是如何让每个员工找到合适自己的位置。(The biggest challenge with growth is keeping everyone aligned.)
+	> - 你只有一次机会，得到他人对你的第一印象。(You only get one first impression.)
+	> 
+
+### Saturday 2019/08/24
 - VUE学习
 
     > [VUE官网][] | [VUE-git][] 
@@ -13,9 +28,9 @@
 
 - 值得记录的时刻
 
-1. 游泳可以游两个来回了；用狗刨可以坚持10秒多；
+1. 游泳可以游两个来回了；用狗刨可以坚持10秒多；  
 
-1. 未来三周要版的新宿舍了，舍友是个手办爱好者，给人以独特个性的感觉。
+1. 未来三周要版的新宿舍了，舍友是个手办爱好者，给人以独特个性的感觉。  
     
 [istio文档]: https://istio.io/zh/docs/ops/component-logging/#see-also)
 [青蛙小白]: https://blog.frognew.com/post.html
@@ -27,8 +42,8 @@
 
 - 值得看的网站
 
-    > [reddit][] | [stackexchange][] | [openstreetmap][] |[nunjucks][] | [jinja][]
-    
+    > [reddit][] | [stackexchange][] | [openstreetmap][] |[nunjucks][] | [jinja][]  
+
     > [git][git-scm] | [idea][IntelliJ IDEA] 
 
 - markdown语法之表格和公式

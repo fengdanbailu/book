@@ -11,7 +11,8 @@
 	> - 客户比竞争对手更重要。(Competition isn't as important as the customer.)
 	> - 快速增长带来的最大挑战，就是如何让每个员工找到合适自己的位置。(The biggest challenge with growth is keeping everyone aligned.)
 	> - 你只有一次机会，得到他人对你的第一印象。(You only get one first impression.)
-	> 
+	> - 人的精力有限，同一时间最多只能干三件事。(It is difficult to concentrate on more than three things at any one time.)
+	> - 没有完美无缺的计划。(No plan is perfect.)
 
 ### Saturday 2019/08/24
 - VUE学习

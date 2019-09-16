@@ -9,5 +9,8 @@
 	> 了解Jenkins;
 	> 了解Webpack;
 	> 翻译文档描述；
+
+- 网站
+	> [kibana教程](http://docs.flycloud.me/docs/ELKStack/kibana/index.html) | 
 	
 

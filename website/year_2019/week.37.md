@@ -4,8 +4,8 @@
     
 	> [JS古怪语法1][javascript怪异语法1] | [JS古怪语法2][javascript怪异语法2]
 
-[javascript怪异语法1]:  http://bonsaiden.github.io/JavaScript-Garden/zh/
-[javascript怪异语法2]: [](https://wtfjs.com/
+[javascript怪异语法1]: http://bonsaiden.github.io/JavaScript-Garden/zh/
+[javascript怪异语法2]: https://wtfjs.com/
 
 - git命令
 	> git log

@@ -1,3 +1,15 @@
+### Sunday 2019/09/22
+- 网站
+	> [Django博客教程](https://www.zmrenwu.com/courses/hellodjango-blog-tutorial/) | [linux命令学习](https://linuxjourney.com/) |  [面试指南](https://yangshun.github.io/tech-interview-handbook/)
+
+### Saturday 2019/09/21
+- 目标
+	> 今天收拾宿舍，理发，购物；同时计划把leetcode的数据库部分补充完成 | 开始启动vue的demo | 开始关注招聘信息。
+	> 整理数据库的SQL语句；
+- 网站
+	> [计算机导论](http://jeffe.cs.illinois.edu/teaching/algorithms/) | [matrix67](http://www.matrix67.com/blog/) | [coolshell](https://coolshell.cn/featured)
+
+
 ### Thurday 2019/09/19
 - 网站
 	> [阮一峰每周分享](http://www.ruanyifeng.com/blog/2018/04/weekly-issue-1.html) |
@@ -7,6 +19,7 @@
 	> 了解webpack，准备UFE转VUE
 	> 重视git，无论多晚，每天提交一些记录，养成好习惯；
 	> 后续印象笔记中的内容也尽量逐步迁移到git上；
+	> 有意识的去看一些视频，了解docker,k8s,devops等；
 
 ### Monday 2019/09/16
 - 阮一峰

@@ -1,3 +1,37 @@
+### Sunday 2019/10/06
+- [命令练习](https://classroom.udacity.com/courses/ud206/lessons/1cc90ac3-c03a-43e6-8556-dcbd40dfd418/concepts/d2ad83b4-3fe3-41da-9073-ba27662c4650)
+> echo
+> ls cd
+> pwd
+> ls -l
+> mkdir mv
+> curl -o baidu.txt -L 'http://www.baidu.com'
+> cat less
+> rm rmdir
+> grep wc (不熟)
+> .bash_profile
+> alias ll='ls -la'
+
+- 命令
+> find . -name 'my*' -ls
+> whereis grep
+> which nginx
+> type [-p] nginx
+
+- 网站
+> [大木虫](http://www.4243.net/)
+
+- 一批人的博客
+> [Y3.PM](https://www.y3pm.com/) 
+> [Nelson](https://chiahsien.github.io/) |[github](https://github.com/chiahsien)
+> [张阿简的博客](https://zhangajian.com/)
+> [山卜方](https://shanbu.fun/)|[github](https://github.com/alterfang/bolg)
+> [黄粱一梦](https://qinjinhuan.github.io/)
+> [无尽光芒](https://kveln.cn/archives/) |[产品导航](http://www.pmdaily.cc)
+> [月光博客](https://www.williamlong.info/)
+> [Guapi](https://thegayhub.github.io/post/shu-jia-shua-ti)
+
+
 ### Saturday 2019/10/05
 - 幂等bash脚本
 > 创建脚本 touch example.txt
@@ -14,3 +48,11 @@
 
 - [别人的git ](https://github.com/timqian)
 
+- 开始阅读《just for fun》
+
+> 以天马行空的对话方式展开
+> 一个书呆子的诞生
+> 一种操作系统的诞生
+> 编程的美妙
+> 舞会上的国王
+> 知识产权

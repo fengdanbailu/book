@@ -1,3 +1,16 @@
+
+
+### Tuesday 2019/10/08
+- 网站
+> [新闻索引](https://go.readmorejoy.com/news)
+> [julia教程+机器学习教程](https://juliaacademy.com/)
+> 
+
+- 感受
+> 网络不好或受限制，会导致原本的想法没法呈现，比如d3学习，和柏林1928和2015年的地图对比。
+> 
+
+
 ### Monday 2019/10/07
 - 网站
 > [今日掘金](http://zy2071.com/Fun/todayJueJin.html)

@@ -150,3 +150,4 @@ print(help(math))
 # 小结
 # 1 python2和python3的差距比较大，生产环境要注意
 # 2 理解import和import from以及函数的定义
+# 3 python执行时，会产生pyc等文件，需要在ignore上配置好

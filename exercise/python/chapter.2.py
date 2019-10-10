@@ -35,11 +35,11 @@ ptl()
 int_num = 10 #int value
 float_num = 10.2 #float value
 complex_num = 3.14j #complex value
-long_num = 1234567L #long value
+# long_num = 1234567L #long value
 print(int_num)
 print(float_num)
 print(complex_num)
-print(long_num)
+# print(long_num)
 
 ptl()
 #list
@@ -75,3 +75,4 @@ print(tuple + tuple1) #will output (123,'hello','world')
 # 1 第二章相对简单一些
 # 2 对于元组而言，一维元组被认为是字符串，不能直接想加减
 # 3 主要介绍了字符串、集合、数值、列表、字段、元组几种数据结构
+# 4 python3不再区分长整形了；

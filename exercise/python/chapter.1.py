@@ -1,5 +1,6 @@
 # !/usr/bin/python
 # coding=utf-8
+# 资料来自https://goalkicker.com/  python
 import keyword
 from collections import defaultdict
 import math

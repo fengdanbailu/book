@@ -1,3 +1,12 @@
+### Thurday 2019/10/10
+- 网站
+> [Typescritp教程](https://ts.xcatliu.com/introduction/what-is-typescript)
+> [github靠前分榜排名](https://github.com/kon9chunkit/GitHub-Chinese-Top-Charts)
+
+- 感受
+> 网络上的好资料很多，但能坚持维护好的并不多
+> 一些链接过段时间可能就没有了，珍惜拥有的信息，尽快掌握为自己的才有价值
+
 
 ### Wedsday 2019/10/09
 - 无缘社会

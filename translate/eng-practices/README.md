@@ -3,14 +3,15 @@
 Google has many generalized engineering practices that cover all languages and
 all projects. These documents represent our collective experience of various best practices that we have developed over time. It is possible that open source projects or other organizations would benefit from this knowledge, so we work to make it available publicly when possible.
 
-# 谷歌工程实践文档
-谷歌有覆盖所有语言和项目的通用工程实践。这些文档表明了过去我们已经具备了大量最佳实践的合作经验。开源项目和其他组织会从这些文档中受益，所以我们的工作是尽可能地开源。
-
 Currently this contains the following documents:
 
 *   [Google's Code Review Guidelines](review/index.md), which are actually two separate sets of documents:
     *   [The Code Reviewer's Guide](review/reviewer/index.md)
     *   [The Change Author's Guide](review/developer/index.md)
+
+# 谷歌工程实践文档
+
+谷歌有覆盖所有语言和项目的通用工程实践。这些文档表明了过去我们已经具备了大量最佳实践的合作经验。开源项目和其他组织会从这些文档中受益，所以我们的工作是尽可能地开源。
 
 当前主要包括以下文档：
 * 谷歌审查代码，主要包括两部分：

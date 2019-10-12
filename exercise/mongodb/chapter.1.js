@@ -7,7 +7,6 @@ printjson("--------------------------------------------- ")
 printjson(db.test.findOne({}));
 printjson("--------------------------------------------- ")
 var list=[]
-
 db.test.find({})
 .forEach(function(doc){
 	list.push(doc);

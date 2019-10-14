@@ -19,4 +19,18 @@ set3={1,2,3,4}
 set4={2,3,5}
 print(set3.difference(set4))
 print(set3 - set4)
+print(set3.symmetric_difference(set4))
+print(set3 ^ set4)
 
+set5 = {1, 2}
+set6 = {1, 2, 3}
+print(set5.issuperset(set6))
+print(set5 >= set6)
+
+print(set5.issubset(set6))
+print(set5 <= set6)
+
+print(set1.isdisjoint({3,4}))
+print(set1.isdisjoint({1,4}))
+
+ptl()

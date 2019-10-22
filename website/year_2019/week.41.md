@@ -1,3 +1,9 @@
+### Sunday 2019/10/13
+- 下一步计划
+> 详细阅读python教程
+> 阅读git项目中的源码
+> 准备简历、笔试、面试下一份工作
+
 ### Thurday 2019/10/10
 - 网站
 > [Typescritp教程](https://ts.xcatliu.com/introduction/what-is-typescript)

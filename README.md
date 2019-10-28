@@ -1,20 +1,10 @@
-# book struct
-
-
-
+# 结构说明
 ```
-	gmchendeMacBook-Pro:book gmchen$ tree
-	.
-	├── README.md
-	└── website
-		├── README.md
-		├── SUMMARY.md
-		├── end
-		│   └── README.md
-		└── year_2019
-			├── README.md
-			├── week_34.md
-			├── week_35.md
-			└── week_36.md
+project 公司参与的项目小结
+readbook 阅读的电子书记录
+summary 熟悉某项技能的记录
+translate 翻译练习
+website 创建网页版电子书的命令
 ```
+
 

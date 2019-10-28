@@ -11,14 +11,17 @@
 1. 编辑内容 vim SUMMARY.md as
 1. vim SUMMARY.md and write below
 
-    ```javascript
-    * [简介](README.md)
-    * [第一章 [2019年]](year_2019/README.md)
-     - [第一节 (第34周)](year_2019/week_34.md)
-     - [第二节 (第35周)](year_2019/week_35.md)
-     - [第三节 (第36周)](year_2019/week_36.md)
-    * [结束](end/README.md)
-    ```
+``` javascript
+	* [前言](book/README.md)
+	* [第一章](book/part.1/1.0.md)
+		- [1.1](book/part.1/1.1.md)
+		- [1.2](book/part.1/1.2.md)
+	* [第二章](book/part.2/2.0.md)
+		- [2.1](book/part.2/2.1.md)
+		- [2.2](book/part.2/2.2.md)
+		- [2.3](book/part.2/2.3.md)
+	* [附录](README.md)
+```
 1. 启动 gitbook serve .
 1. 打开http://localhost:4000
 

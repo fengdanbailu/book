@@ -1,5 +1,5 @@
 const getMapping=function (A){
-	var array=getArea(A,[1,1]);
+	var array=getArea(A,[0,0]);
 	var mapping={0:0}
 	for(var i=0;i<array.length;i++){
 		mapping[array[i]]=i+1;
@@ -139,6 +139,16 @@ const findValue=function(A,value){
 	}
 	return array;
 }
+const findValueInArea=function(A,point,value){
+	for(var i=point[0]*3;i<point[0]*3+3;i++){
+		for(var j=point[1]*3;j<point[1]*3+3;j++){
+			if(A[i][j]==value){
+				return [i,j];
+			}
+		}
+	}
+	return [-1,-1];
+}
 
 const getSubMatrixMinPos=function(A,col,row){
 	var subMatrix=getSubMatrix(A,col,row);
@@ -155,68 +165,30 @@ const transpose=function(A){
 	}
 	return B;
 }
-const subOrder123=function(A){
+
+const transferOnePosition=function(A){
 	var B=JSON.parse(JSON.stringify(A));
-	var min123=getSubMatrixMinPos(B,[0,1,2],[0,1,2]);
-	if(min123.pos[0]!=0){
-		B=exchangeCol(B,0,min123.pos[0])
-	}
-	if(min123.pos[1]!=0){
-		B=exchangeRow(B,0,min123.pos[1])
-	}
-	var min23=getSubMatrixMinPos(B,[1,2],[1,2]); 
-	if(min23.pos[0]!=1){
-		B=exchangeCol(B,1,min23.pos[0])
-	}
-	if(min23.pos[1]!=1){
-		B=exchangeRow(B,1,min23.pos[1])
-	}	
-	return B;
-}
-const subOrder789=function(A){
-	var B=JSON.parse(JSON.stringify(A));
-	var min789=getSubMatrixMinPos(B,[6,7,8],[6,7,8]);
-	if(min789.pos[0]!=6){
-		B=exchangeCol(B,6,min789.pos[0])
-	}
-	if(min789.pos[1]!=6){
-		B=exchangeRow(B,6,min789.pos[1])
-	}
-	
-	var min89=getSubMatrixMinPos(B,[7,8],[7,8]); 
-	if(min89.pos[0]!=7){
-		B=exchangeCol(B,7,min89.pos[0])
-	}
-	if(min89.pos[1]!=7){
-		B=exchangeRow(B,7,min89.pos[1])
-	}
-	return B;
-}
-const compareMatrix=function(A,B){
-	var result=0;
-	var fa=[A[0][0],A[1][1],A[2][2],A[0][1],A[1][0],A[0][2],A[2][0],A[1][2],A[2][1]];
-	var fb=[A[0][0],B[1][1],B[2][2],B[0][1],B[1][0],B[0][2],B[2][0],B[1][2],B[2][1]];
-	for(var i=0;i<fa.length;i++){
-		if(fa[i]!=fb[i]){
-			result=fa[i]>fb[i]?1:-1;
-			break;
+	var points=[
+		[0,0],[1,3],[2,6],[3,1],[4,4],[5,7],[6,2],[7,5],[8,8]
+	]
+	for(var i=0;i<3;i++){
+		for(var j=0;j<3;j++){
+			var srcPoint=findValueInArea(B,[i,j],1);
+			var descPoint=points[i*3+j];
+			if(srcPoint[0]!=descPoint[0]){
+				B=exchangeCol(B,srcPoint[0],descPoint[0])
+			}
+			if(srcPoint[1]!=descPoint[1]){
+				B=exchangeRow(B,srcPoint[1],descPoint[1])
+			}
 		}
 	}
-	if(result==0){
-		console.error("It is equal");
-	}
-	return result;
+	return B;
 }
+
 const format=function(A){
-	var B=setMapping(A);
-	var B=subOrder123(B);
-	var B1=subOrder123(exchangeColGroup(B,0,2));
-	var B2=subOrder123(exchangeRowGroup(B,0,2));
-	var B3=subOrder123(exchangeRowGroup(B1,0,2));
-	if(compareMatrix(B,B1)>0){B=B1;}
-	if(compareMatrix(B,B2)>0){B=B2;}
-	if(compareMatrix(B,B3)>0){B=B3;}
-	B=subOrder789(B);
+	var B=transferOnePosition(A);
+	B=setMapping(B);
 	return B;
 }
 
@@ -247,9 +219,56 @@ const isShudu=function(A){
 	}
 	return true;
 }
+const getArrayFromMatrix=function(A){
+	var array=[];
+	for(var i=0;i<A.length;i++){
+		for(var j=0;j<A[i].length;j++){
+			array.push(A[i][j]);
+		}
+	}
+	return array;
+}
+
+const compareMatrix=function(A,B,len){
+	if(len==null){len=81}
+	var result=0;
+	var fa=getArrayFromMatrix(A);
+	var fb=getArrayFromMatrix(B);
+	for(var i=0;i<fa.length;i++){
+		if(fa[i]!=fb[i]){
+			result=fa[i]>fb[i]?1:-1;
+			break;
+		}
+	}
+	if(result==0){
+		console.error("It is equal");
+	}
+	return result;
+}
+
+const isStandard=function(A){
+	var points=[
+		[0,0],[1,3],[2,6],[3,1],[4,4],[5,7],[6,2],[7,5],[8,8]
+	]
+	for(var i=0;i<3;i++){
+		for(var j=0;j<3;j++){
+			if(A[i][j]!=3*i+j+1){
+				return false;
+			}
+		}
+	}
+	for(var i=0;i<points.length;i++){
+		if(A[points[i][0]][points[i][1]]!=1){
+			return false;
+		}
+	}
+	return true;
+}
 
 const shudu={
 	format:format,
-	isOK:isShudu
+	isShudu:isShudu,
+	isStandardShudu:isStandard,
+	compare:compareMatrix
 }
 module.exports = shudu;

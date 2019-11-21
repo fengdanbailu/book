@@ -1,0 +1,1 @@
+const flot = require('flot');

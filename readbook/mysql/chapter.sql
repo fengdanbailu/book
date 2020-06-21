@@ -1,1 +1,0 @@
- // mysql -uroot -pGuoming@#004 < chapter.1.sql

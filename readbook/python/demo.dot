@@ -1,1 +1,0 @@
-digraph demo1{ a -> b -> c; c ->a; }

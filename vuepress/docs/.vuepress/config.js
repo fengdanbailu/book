@@ -2,7 +2,7 @@
  * @Author: gm.chen
  * @Date: 2020-08-11 10:41:17
  * @LastEditors: gm.chen
- * @LastEditTime: 2020-08-11 14:41:32
+ * @LastEditTime: 2020-08-11 22:50:59
  * @Description: file content
  * @FilePath: /book/vuepress/docs/.vuepress/config.js
  */
@@ -38,40 +38,51 @@ const sidebar =  {
 	],
 	'/teacher/' :  [
 		{
-			title: 'ke1',
+			title: '综合素质',
 			path: '/teacher/ke1/',
 			collapsable: true,
 			children: [
 				'/teacher/ke1/1/',
 				'/teacher/ke1/2/',
+				'/teacher/ke1/3/',
+				'/teacher/ke1/4/',
+				'/teacher/ke1/5/'
 			],
 		},
 		{
-			title : 'ke2',
+			title : '教育知识与能力',
 			path : '/teacher/ke2/',
 			collapsable: true,
 			children : [
 				'/teacher/ke2/1/',
 				'/teacher/ke2/2/',
+				'/teacher/ke2/3/',
+				'/teacher/ke2/4/',
+				'/teacher/ke2/5/',
+				'/teacher/ke2/6/',
+				'/teacher/ke2/7/',
+				'/teacher/ke2/8/'
 			]
 		},
 		{
-			title : 'pc',
+			title : '信息技术学科知识与教学能力',
 			path : '/teacher/pc/',
 			collapsable: true,
 			children : [
 				'/teacher/pc/1/',
 				'/teacher/pc/2/',
+				'/teacher/pc/3/',
+				'/teacher/pc/4/'
 			]
 		},
 	],
 	'/':[
 		{
-			title: '主页',
+			title: '大前端',
 			path: '/web/',
 		},
 		{
-			title: '考点',
+			title: '教师证',
 			path: '/teacher/',
 		},
 	],
@@ -80,11 +91,11 @@ const sidebar =  {
 
 module.exports = {
     themeConfig : {
-      search: false,
+      search: true,
       sidebar,
       nav: [
-        { text: "主页", link: "/web/" },
-        { text: "考点", link: "/teacher/" },
+        { text: "大前端", link: "/web/" },
+        { text: "教师证", link: "/teacher/" },
         { text: "网道", link: "https://wangdoc.com/" }
       ],
       smoothScroll: true,

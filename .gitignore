@@ -18,3 +18,4 @@ node_modules
 __pycache__
 package-lock.json
 *.lock
+vuepress/docs/.vuepress/dist

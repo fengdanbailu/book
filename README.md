@@ -1,3 +1,4 @@
+# website
 ## 从git上初始化
 1. 拉去代码 git clone https://github.com/fengdanbailu/book.git
 2. 进入文件夹 cd /book/website
@@ -44,3 +45,6 @@ $ gitbook epub . mybook.epub
 $ gitbook mobi . mybook.mobi
 ```
 
+# vuepress
+ yarn && yarn dev # 启动
+ yarn build # 编译

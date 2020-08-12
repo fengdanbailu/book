@@ -2,7 +2,7 @@
  * @Author: gm.chen
  * @Date: 2020-08-11 10:41:17
  * @LastEditors: gm.chen
- * @LastEditTime: 2020-08-12 11:23:42
+ * @LastEditTime: 2020-08-12 21:57:12
  * @Description: file content
  * @FilePath: /book/vuepress/docs/.vuepress/config.js
  */
@@ -69,6 +69,77 @@ const sidebar =  {
 				'/web/project/convert1/',
 				'/web/project/cicd1/',
 				'/web/project/quality1/'
+			]
+		},
+		{
+			title : '编程思想',
+			path : '/web/idea/',
+			collapsable: true,
+			children : [
+				'/web/idea/pattern1/',
+				'/web/idea/framework1/',
+				'/web/idea/paradigm1/',
+				'/web/idea/programe1/'
+			]
+		},
+		{
+			title : '领域分支',
+			path : '/web/domain/',
+			collapsable: true,
+			children : [
+				'/web/domain/visualization1/',
+				'/web/domain/web1/',
+				'/web/domain/game1/',
+				'/web/domain/portable1/'
+			]
+		},
+		{
+			title : '社区发展',
+			path : '/web/community/',
+			collapsable: true,
+			children : [
+				'/web/community/ssr/',
+				'/web/community/frontend/',
+				'/web/community/microservice/',
+				'/web/community/serverless/',
+				'/web/community/webassembly/',
+				'/web/community/lesscode/'
+			]
+		},
+		{
+			title : '计算机基础',
+			path : '/web/computer/',
+			collapsable: true,
+			children : [
+				'/web/computer/compiler/',
+				'/web/computer/structure/',
+				'/web/computer/algorithm/',
+				'/web/computer/os/',
+				'/web/computer/net/'
+			]
+		},
+		{
+			title : '后端知识',
+			path : '/web/backend/',
+			collapsable: true,
+			children : [
+				'/web/backend/node/',
+				'/web/backend/language/',
+				'/web/backend/netservice/',
+				'/web/backend/database/',
+				'/web/backend/cache/'
+			]
+		},
+		{
+			title : '软技能',
+			path : '/web/soft/',
+			collapsable: true,
+			children : [
+				'/web/soft/learn/',
+				'/web/soft/technology/',
+				'/web/soft/cooperation/',
+				'/web/soft/manager/',
+				'/web/soft/framework/'
 			]
 		}
 	],

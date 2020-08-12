@@ -1,11 +1,18 @@
-# VUE 
+# 代码质量
 
-## vuex
+## 质量检测
+ jslint, jshint, tslint, eslint
+ stylelint
+ sonar
 
-## vue-router
+## 单元测试
+chai, expect, should
+unit, mocha, qunit, Jasmine, jest
+karma
+Sinon
+lstanbul
 
-## vue-cli
+## E2E测试
 
-## elementUI
-
-## antDesign
+Nightwatch
+cypress

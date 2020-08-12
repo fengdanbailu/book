@@ -2,39 +2,75 @@
  * @Author: gm.chen
  * @Date: 2020-08-11 10:41:17
  * @LastEditors: gm.chen
- * @LastEditTime: 2020-08-11 22:50:59
+ * @LastEditTime: 2020-08-12 11:23:42
  * @Description: file content
  * @FilePath: /book/vuepress/docs/.vuepress/config.js
  */
 const sidebar =  {
 	'/web/' :  [
 		{
-			title: 'ES6',
-			path: '/web/es6/',
+			title: '编程基础',
+			path: '/web/basic/',
 			collapsable: true,
 			children: [
-				'/web/es6/function_extend/',
-				'/web/es6/regex_extend/',
+				'/web/basic/html/',
+				'/web/basic/css/',
+				'/web/basic/javascript/',
+				'/web/basic/es6/',
 			],
 		},
 		{
-			title : 'vue',
-			path : '/web/vue/',
+			title: '开发工具',
+			path: '/web/tools/',
+			collapsable: true,
+			children: [
+				'/web/tools/editor1/',
+				'/web/tools/editor2/',
+				'/web/tools/editor3/',
+				'/web/tools/debug1/',
+				'/web/tools/debug2/',
+				'/web/tools/debug3/',
+				'/web/tools/ps1/'
+			],
+		},
+		{
+			title : '类库框架',
+			path : '/web/library/',
 			collapsable: true,
 			children : [
-				'/web/vue/vue-router/',
-				'/web/vue/vuex/',
+				'/web/library/tools1/',
+				'/web/library/tools2/',
+				'/web/library/framework1/',
+				'/web/library/framework2/'
 			]
 		},
 		{
-			title : 'javascript',
-			path : '/web/javascript/',
+			title : '知识进阶',
+			path : '/web/knowledge/',
 			collapsable: true,
 			children : [
-				'/web/javascript/datatype/',
-				'/web/javascript/operator/',
+				'/web/knowledge/net1/',
+				'/web/knowledge/net2/',
+				'/web/knowledge/xn1/',
+				'/web/knowledge/security1/',
+				'/web/knowledge/browser1/',
 			]
 		},
+		{
+			title : '工程开发',
+			path : '/web/project/',
+			collapsable: true,
+			children : [
+				'/web/project/module1/',
+				'/web/project/version1/',
+				'/web/project/dependent1/',
+				'/web/project/enhance1/',
+				'/web/project/build1/',
+				'/web/project/convert1/',
+				'/web/project/cicd1/',
+				'/web/project/quality1/'
+			]
+		}
 	],
 	'/teacher/' :  [
 		{
@@ -95,8 +131,14 @@ module.exports = {
       sidebar,
       nav: [
         { text: "大前端", link: "/web/" },
-        { text: "教师证", link: "/teacher/" },
-        { text: "网道", link: "https://wangdoc.com/" }
+		{ text: "教师证", link: "/teacher/" },
+		{
+			text: "外链",
+			items: [
+				{ text: "网道", link: "https://wangdoc.com/" },
+				{ text: "VUE", link: "https://cn.vuejs.org/v2/guide/" }
+			]
+		}
       ],
       smoothScroll: true,
     },

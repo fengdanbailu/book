@@ -1,4 +1,6 @@
 {
+  "private": true,
+  "license": "MIT",
     "scripts": {
       "dev": "vuepress dev docs",
       "build": "vuepress build docs"

@@ -46,8 +46,11 @@ $ gitbook mobi . mybook.mobi
 ```
 
 # vuepress
- yarn && yarn dev # 启动
- yarn build # 编译
+```
+yarn global add vuepress # 安装依赖
+yarn dev # 启动
+yarn build # 编译
+```
 
  对于取第一行的值而言，vuepress 的目录比 gitbook 的配置简便些，当不一样时，配置复杂度相似；
  vuepress 的好处是，后续根据实际需要可以借助 vue 实现相关逻辑；坏处时，暂时没有找到直接生成 pdf|epub|mobi 的方法；

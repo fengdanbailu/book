@@ -2,7 +2,7 @@
  * @Author: gm.chen
  * @Date: 2020-08-11 10:41:17
  * @LastEditors: gm.chen
- * @LastEditTime: 2020-08-12 21:57:12
+ * @LastEditTime: 2020-08-17 10:00:04
  * @Description: file content
  * @FilePath: /book/vuepress/docs/.vuepress/config.js
  */
@@ -214,5 +214,5 @@ module.exports = {
       smoothScroll: true,
     },
     title: '多聊天长知识',
-    description: 'collected by gmchen'
+	description: 'collected by gmchen'
   };

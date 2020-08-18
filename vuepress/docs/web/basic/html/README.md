@@ -142,24 +142,26 @@ type 属性
 <script nomodule src="fallback.js"></script>
 ```
 integrity 属性
+
 引用外部脚本时，可以增加 hash 值，防止外部脚本变动
 
 rel 属性
-alternate：文档的另一种表现形式的链接，比如打印版。
-author：文档作者的链接。
-dns-prefetch：要求浏览器提前执行指定网址的 DNS 查询。
-help：帮助文档的链接。
-icon：加载文档的图标文件。
-license：许可证链接。
-next：系列文档下一篇的链接。
-pingback：接收当前文档 pingback 请求的网址。
-preconnect：要求浏览器提前与给定服务器，建立 HTTP 连接。
-prefetch：要求浏览器提前下载并缓存指定资源，供下一个页面使用。它的优先级较低，浏览器可以不下载。
-preload：要求浏览器提前下载并缓存指定资源，当前页面稍后就会用到。它的优先级较高，浏览器必须立即下载。
-prerender：要求浏览器提前渲染指定链接。这样的话，用户稍后打开该链接，就会立刻显示，感觉非常快。
-prev：表示当前文档是系列文档的一篇，这里给出上一篇文档的链接。
-search：提供当前网页的搜索链接。
-stylesheet：加载一张样式表。
+
+- alternate：文档的另一种表现形式的链接，比如打印版。
+- author：文档作者的链接。
+- dns-prefetch：要求浏览器提前执行指定网址的 DNS 查询。
+- help：帮助文档的链接。
+- icon：加载文档的图标文件。
+- license：许可证链接。
+- next：系列文档下一篇的链接。
+- pingback：接收当前文档 pingback 请求的网址。
+- preconnect：要求浏览器提前与给定服务器，建立 HTTP 连接。
+- prefetch：要求浏览器提前下载并缓存指定资源，供下一个页面使用。它的优先级较低，浏览器可以不下载。
+- preload：要求浏览器提前下载并缓存指定资源，当前页面稍后就会用到。它的优先级较高，浏览器必须立即下载。
+- prerender：要求浏览器提前渲染指定链接。这样的话，用户稍后打开该链接，就会立刻显示，感觉非常快。
+- prev：表示当前文档是系列文档的一篇，这里给出上一篇文档的链接。
+- search：提供当前网页的搜索链接。
+- stylesheet：加载一张样式表。
 
 ``` html
 <!-- 作者信息 -->
@@ -306,3 +308,5 @@ addEventListener()三个参数分别表示事件名称，事件处理函数，�
 - webkitRequestPointerLock() | exitPointerLock
 - requestAnimationFrame
 - MutationObserver
+- Promise 对象
+

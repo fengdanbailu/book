@@ -1,14 +1,14 @@
 {
   "private": true,
   "license": "MIT",
-    "scripts": {
-      "dev": "vuepress dev docs",
-      "build": "vuepress build docs"
-    },
-    "dependencies": {
-      "element-ui": "^2.13.2",
-      "lodash": "^4.17.19",
-      "markdown-it": "^11.0.0",
-      "moment": "^2.27.0"
-    }
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "dependencies": {
+    "element-ui": "^2.13.2",
+    "lodash": "^4.17.19",
+    "markdown-it": "^11.0.0",
+    "moment": "^2.27.0"
   }
+}

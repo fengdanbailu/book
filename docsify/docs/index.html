@@ -1,0 +1,92 @@
+<!--
+ * @Author: gm.chen
+ * @Date: 1985-10-26 16:15:00
+ * @LastEditors: gm.chen
+ * @LastEditTime: 2020-08-19 13:09:02
+ * @Description: file content
+ * @FilePath: /book/docsify/docs/index.html
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>我的文档</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="_resource/css/vue.css">
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/lib/themes/vue.css"> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/buble.css"> -->
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/dark.css"> -->
+</head>
+<body>
+  <nav>
+    <a href="#/">EN</a>
+    <a href="#/zh-cn/">中文</a>
+  </nav>
+  <div id="app"></div>
+  <script>
+    window.$docsify = {
+      // el: '#app',
+      name: '我的文档',
+      repo: 'fengdanbailu/book.git',
+      loadSidebar: true,//_sidebar.md |false
+      // loadSidebar: '_sidebar.md',
+      loadNavbar: true, //_navbar.md | false
+      // loadNavbar: '_navbar.md',
+      alias: {
+        '/.*/_sidebar.md': '/_sidebar.md',
+        '/.*/_navbar.md': '/_navbar.md'
+      },//防止报错，当下级没有此目录时，则使用上一级设置
+      maxLevel: 6,
+      // subMaxLevel: 0,
+      auto2top: true,
+      // homepage:'README.md',
+      // basePath:'/',
+      // relativePath:false,
+      coverpage: true,//"_coverpage.md"，
+      // logo:'/_media/logo.png',
+      // themeColor: 'red'
+      mergeNavbar: true,
+      formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}',
+      // externalLinkTarget: '_self',
+      // routerMode: 'history',//history 模式对中文不友好
+      // onlyCover: true,
+      topMargin: 0, // default: 0
+      search: {
+        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+        paths: 'auto', // or 'auto'
+        placeholder: '搜索',
+
+        // 支持本地化
+        // placeholder: {
+        //   '/zh-cn/': '搜索',
+        //   '/': 'Type to search'
+        // },
+
+        noData: '找不到结果',
+
+        // 支持本地化
+        // noData: {
+        //   '/zh-cn/': '找不到结果',
+        //   '/': 'No Results'
+        // },
+
+        // 搜索标题的最大层级, 1 - 6
+        depth: 2,
+      }
+    }
+  </script>
+  <script src="_resource/docsify.min.js"></script>
+  <script src="_resource/search.min.js"></script>
+  <script src="_resource/docsify-copy-code.mn.js"></script>
+  <script src="_resource/docsify-pagination.min.js"></script>
+  <script src="_resource/countable.js"></script>
+  
+  <!-- <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <script src="//unpkg.com/docsify-count/dist/countable.js"></script> -->
+</body>
+</html>

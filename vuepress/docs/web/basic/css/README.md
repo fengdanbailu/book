@@ -77,7 +77,7 @@ h1 {
 - 表格中的display=table|inline-table|table-row|table-cell|table-row-group|table-header-group|table-footer-group|table-column|table-column-group|table-caption
 - overflow=hidden|scroll|auto|visible|
 - text-overflow:ellipsis; white-space:nowrap
-- box-shadow
+- 
 
 
 

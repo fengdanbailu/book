@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "docsify serve docs",
+    "dev:py2":"cd docs && python2 -m SimpleHTTPServer 3002",
+    "dev:py3":"cd docs && python3 -m http.server 3003"
+  },
+  "dependencies": {
+    "docsify-cli": "^4.4.1"
+  }
+}

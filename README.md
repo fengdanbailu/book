@@ -1,7 +1,7 @@
-# website
+# gitbook
 ## 从git上初始化
 1. 拉去代码 git clone https://github.com/fengdanbailu/book.git
-2. 进入文件夹 cd /book/website
+2. 进入文件夹 cd /book/gitbook
 3. 初始化 npm install -g gitbook-cli
 4. 编辑book.json并安装依赖组件 gitbook install
 5. 启动 gitbook serve . --port 4000
@@ -48,9 +48,20 @@ $ gitbook mobi . mybook.mobi
 # vuepress
 ```
 yarn global add vuepress # 安装依赖
+yarn # 安装依赖
 yarn dev # 启动
 yarn build # 编译
 ```
 
- 对于取第一行的值而言，vuepress 的目录比 gitbook 的配置简便些，当不一样时，配置复杂度相似；
- vuepress 的好处是，后续根据实际需要可以借助 vue 实现相关逻辑；坏处时，暂时没有找到直接生成 pdf|epub|mobi 的方法；
+# docsify
+``` 
+yarn # 安装依赖
+cd docsify # 进入目录
+yarn dev # 启动
+yarn build # 编译
+```
+
+# 比较
+- 目前 gitbook 官网已经不维护了，因此更推荐docsify和vuepress；如果需要导出 pdf|epub|mobi 格式，新建一个目录也还可以接受；
+- docsify相对而言可配置性更强一些，常规写自己的技术博客vuepress就挺好的，目前主要文档用的 vuepress；gitbook和 docsify 只是 demo;
+。

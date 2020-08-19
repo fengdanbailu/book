@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "install": "gitbook install",
+    "dev": "gitbook serve . --port 4000",
+    "build": "gitbook build"
+  },
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

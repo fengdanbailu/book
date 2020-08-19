@@ -77,8 +77,21 @@ h1 {
 - 表格中的display=table|inline-table|table-row|table-cell|table-row-group|table-header-group|table-footer-group|table-column|table-column-group|table-caption
 - overflow=hidden|scroll|auto|visible|
 - text-overflow:ellipsis; white-space:nowrap
-- 
+- box-sizing=content-box|padding-box|border-box
+  
+### 背景与边框相关样式
+- 背景：background-origin=border|padding|content, bakcground-clip=border|padding|content(内部的图像不显示),background-size=40px 20px|contain|cover|, background-repeat=space|round|no-repeat|repeat|repeat-x|repeat-y
+- 渐变色：linear-gradient(direction,color1 0%,color2 100%); radial-gradient(circle at center top,color1 0%,color2 100%);
+- radial-gradient的参数为( )closest-size
 
 
-
+``` css
+    .spcial1-div {
+        background:linear-gradient(to bottom,orange,black)
+    }
+    .spcial2-div {
+        /* background:radial-gradient(at 20px 30px,orange,black) */
+        background:radial-gradient(ellipse closest-size at 20px 30px,orange,black)
+    }
+```
 

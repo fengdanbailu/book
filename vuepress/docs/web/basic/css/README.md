@@ -82,9 +82,9 @@ h1 {
 ### 背景与边框相关样式
 - 背景：background-origin=border|padding|content, bakcground-clip=border|padding|content(内部的图像不显示),background-size=40px 20px|contain|cover|, background-repeat=space|round|no-repeat|repeat|repeat-x|repeat-y
 - 渐变色：linear-gradient(direction,color1 0%,color2 100%); radial-gradient(circle at center top,color1 0%,color2 100%);
-- radial-gradient的参数为( )closest-size
-
-
+- radial-gradient的参数为( )closest-size|farthest-side|farthest-corner
+- border-radius=border-top-left-radius|border-top-right-radius|border-bottom-right-radius|border-bottom-left-radius, border-image=url() A B C D/10px repeat stretch;
+  
 ``` css
     .spcial1-div {
         background:linear-gradient(to bottom,orange,black)
@@ -95,3 +95,106 @@ h1 {
     }
 ```
 
+### CSS3中的变形处理（旋转、缩放、倾斜，移动 ）
+- transform:rotate(45deg)，scale(0.5,2),transform:skew(30deg,30deg)；transform:translate(50px,50px); 
+- transform:rotateX,rotateY,rotateZ，
+- matrix;matrix3d
+
+``` css
+/* 可以同时做多种变换操作 */
+div{
+    transform translate(150px,200px) rotate(45deg) scaale(1.5)；
+}
+```
+
+### CSS中的动画动能 
+-  transition:property duration timing-function delay
+-  animation:name duration timing-function delay，iteration-count direction=normal|alternate|reverse|alternate-reverse
+- 
+
+``` css 
+div{
+    background-color:#ffff00;
+    transition:background-color is linear;
+}
+div :hover{
+    background-color:#0000FF
+}
+
+div2{
+    background-color:#ffff00;
+}
+@keyframes mycolor{
+    0%{
+        background-color:red;
+        /* transform:rotate(90deg); */
+    }
+    40%{
+        background-color:darkblue;
+    }
+    70%{
+        background-color:yellow;
+    }
+    100%{
+        background-color:red;
+    }
+}
+div2 :hover{
+    animation-name:mycolor;
+    animation-duration:5s;
+    animation-timing-function:linear;
+    animation-delay:0.5s;
+    animation-iteration-count:20;
+}
+```
+
+### 布局相关样式
+- 分栏：column-count| column-width| column-gap| column-rule
+- display:box|-moz-box|-webkit-box
+- display:flex, flex:1,order:1, flex-direction=row|row-reverse|column|column-reverse
+
+
+
+``` css
+#div1{
+    column-count:2;
+    -moz-column-count:2;
+    -webkit-column-count:2;
+    column-width:20em;
+    -moz-column-width:20em;
+    -webkit-column-width:2em;
+    column-gap:3em;
+    -moz-column-gap:3em;
+    -webkit-column-gap:3em;
+    column-rule:1px solid red;
+    -moz-column-rule:1px solid red;
+    -webkit-column-rule:1px solid red;
+}
+```
+
+``` css
+#container{
+    display:flex;
+}
+#left-sidebar{
+    order:3;
+    width:200px;
+    padding:20px;
+    background-color:oragne;
+}
+#contains{
+    order:1;
+    flex:1;
+    padding:20px;
+    background-color:yellow;
+}
+#right-sidebar{
+    order:2;
+    width:200px;
+    padding:20px;
+    background-color:limegreen;
+}
+#left-sidebar,#contains,#right-sidebar{
+    box-sizing:border-box;
+}
+```

@@ -64,4 +64,4 @@ yarn build # 编译
 # 比较
 - 目前 gitbook 官网已经不维护了，因此更推荐docsify和vuepress；如果需要导出 pdf|epub|mobi 格式，新建一个目录也还可以接受；
 - docsify相对而言可配置性更强一些，常规写自己的技术博客vuepress就挺好的，目前主要文档用的 vuepress；gitbook和 docsify 只是 demo;
-。
+- docsify 没有直接的 build，但可以在 github 上直接发布，也很方便；三个组件结构类似，相互转化成本也并不高；

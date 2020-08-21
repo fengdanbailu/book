@@ -151,8 +151,10 @@ div2 :hover{
 ### 布局相关样式
 - 分栏：column-count| column-width| column-gap| column-rule
 - display:box|-moz-box|-webkit-box
-- display:flex, flex:1,order:1, flex-direction=row|row-reverse|column|column-reverse
-
+- display:flex, flex:1,order:1, flex-direction=row|row-reverse|column|column-reverse,flex-group（用户划分多余空间的），flex-shrink(用户划分缺少的空间)，flex-basis,
+- flex-wrap=nowrap|wrap|wrap-reverse,just-content=flex-start|flex-end|center|space-between|space-around
+- align-items=flex-start|flex-end|center|baseline|stretch; align-self=flex-start|flex-end|center|baseline|stretch;align-content=flex-start|flex-end|center|space-between|space-around
+- calc(50% - 100px)
 
 
 ``` css
@@ -184,7 +186,7 @@ div2 :hover{
 }
 #contains{
     order:1;
-    flex:1;
+    flex:1;/*多个时表示比例*/
     padding:20px;
     background-color:yellow;
 }
@@ -196,5 +198,29 @@ div2 :hover{
 }
 #left-sidebar,#contains,#right-sidebar{
     box-sizing:border-box;
+    /* width:calc(50% - 100px) */
 }
 ```
+
+### Media Queries 相关样式
+- 例子，除了screen 外，还有其他设备
+``` css
+@media screen and (min-width:1000px){
+
+}
+
+@media screen and (min-width:640px) and (max-width:999px){
+}
+```
+
+### 其他 css3 的样式和属性
+- 颜色 rgb(红，绿，蓝，alpha通道),hsl（色调，饱和度，亮度，alpha 通道）
+- opacity 是针对所有元素半透明，transparent 也是一样；
+- outline 高亮，outline-offset:2px
+- resize=none|both|horizontal|vertical|inherit
+- color:initial（不一定生效，因为留恋其可能对h1 追加了样式）
+- filter:grayscale(50%)灰度滤镜 | sepia(100%)老式滤镜 | saturate(250%)饱和度滤镜 | hue-rotate(90deg)旋转滤镜 | invert(100%)颜色反转滤镜 | opacity(50%) 透明滤镜| contrast(200%)对比度滤镜 | blur(2px) 模糊滤镜| drop-shadow(4px -4px 6px purple) 阴影滤镜（航向啊便宜距离，纵向偏移距离，阴影的模糊半径|阴影的颜色）
+  
+### 综合实例
+- 使用 html5中新增结构元素来构建网页；
+- 使用 html5+css3 来构建 web 应用程序；

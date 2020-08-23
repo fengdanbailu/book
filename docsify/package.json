@@ -7,6 +7,7 @@
     "dev:py3": "cd docs && python3 -m http.server 3003"
   },
   "dependencies": {
-    "docsify-cli": "^4.4.1"
+    "docsify-cli": "^4.4.1",
+    "mdx-deck": "^4.1.1"
   }
 }

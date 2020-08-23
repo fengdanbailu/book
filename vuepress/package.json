@@ -3,7 +3,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "vuepress dev docs",
-    "build": "vuepress build docs"
+    "build": "vuepress build docs",
   },
   "dependencies": {
     "element-ui": "^2.13.2",

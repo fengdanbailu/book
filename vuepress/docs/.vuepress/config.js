@@ -2,7 +2,7 @@
  * @Author: gm.chen
  * @Date: 2020-08-11 10:41:17
  * @LastEditors: gm.chen
- * @LastEditTime: 2020-08-20 10:14:40
+ * @LastEditTime: 2020-09-02 19:02:46
  * @Description: file content
  * @FilePath: /book/vuepress/docs/.vuepress/config.js
  */
@@ -29,7 +29,6 @@ const sidebar =  {
 				'/web/tools/editor3/',
 				'/web/tools/debug1/',
 				'/web/tools/debug2/',
-				'/web/tools/debug3/',
 				'/web/tools/ps1/'
 			],
 		},

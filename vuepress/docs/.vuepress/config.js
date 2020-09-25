@@ -2,7 +2,7 @@
  * @Author: gm.chen
  * @Date: 2020-08-11 10:41:17
  * @LastEditors: gm.chen
- * @LastEditTime: 2020-09-02 19:02:46
+ * @LastEditTime: 2020-09-25 22:51:24
  * @Description: file content
  * @FilePath: /book/vuepress/docs/.vuepress/config.js
  */
@@ -17,6 +17,19 @@ const sidebar =  {
 				'/web/basic/css/',
 				'/web/basic/javascript/',
 				'/web/basic/es6/',
+			],
+		},
+		{
+			title: '阮一峰博客',
+			path: '/web/ruanyifeng/',
+			collapsable: true,
+			children: [
+				'/web/ruanyifeng/126/',
+				'/web/ruanyifeng/125/',
+				'/web/ruanyifeng/75/',
+				'/web/ruanyifeng/74/',
+				'/web/ruanyifeng/23/',
+				'/web/ruanyifeng/22/'
 			],
 		},
 		{

@@ -4,7 +4,11 @@
   "scripts": {
     "install": "gitbook install",
     "dev": "gitbook serve . --port 4000",
-    "build": "gitbook build"
+    "build": "gitbook build",
+    "export":"yarn pdf & yarn epub & yarn mobi",
+    "pdf":"gitbook pdf . mybook.pdf",
+    "epub":"gitbook epub . mybook.epub",
+    "mobi":"gitbook mobi . mybook.mobi"
   },
   "dependencies": {
     "gitbook-cli": "^2.3.2"

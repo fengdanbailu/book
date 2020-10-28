@@ -2,11 +2,12 @@
  * @Author: gm.chen
  * @Date: 2020-08-11 10:41:17
  * @LastEditors: gm.chen
- * @LastEditTime: 2020-09-25 22:51:24
+ * @LastEditTime: 2020-10-28 22:44:11
  * @Description: file content
  * @FilePath: /book/vuepress/docs/.vuepress/config.js
  */
-const sidebar =  {
+
+const sidebar ={
 	'/web/' :  [
 		{
 			title: '编程基础',
@@ -24,6 +25,10 @@ const sidebar =  {
 			path: '/web/ruanyifeng/',
 			collapsable: true,
 			children: [
+				'/web/ruanyifeng/130/',
+				'/web/ruanyifeng/129/',
+				'/web/ruanyifeng/128/',
+				'/web/ruanyifeng/127/',
 				'/web/ruanyifeng/126/',
 				'/web/ruanyifeng/125/',
 				'/web/ruanyifeng/75/',
@@ -227,5 +232,6 @@ module.exports = {
     },
     title: '多聊天长知识',
 	description: 'collected by gmchen',
-	base:'/vuepress/'
+	base: '/vuepress/',
+	port: 4001
   };
